@@ -9,7 +9,7 @@ from quebrar_captcha import tratar_imagens
 
 
 def quebrar_captcha():
-    # importar o modelo que a gente treinou e importar o tradutor
+    # importar o modelo do qual foi treinado e importar o tradutor
     with open('rotulos_modelo.dat', 'rb') as arquivo_tradutor:
         lb = pickle.load(arquivo_tradutor)
 
